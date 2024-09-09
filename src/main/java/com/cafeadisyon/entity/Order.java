@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "`Order`")  // `Order` bir anahtar kelime olabilir, tablo adını escape edelim
+@Table(name = "`order`")  // `Order` bir anahtar kelime olabilir, tablo adını escape edelim
 public class Order {
 
     @Id

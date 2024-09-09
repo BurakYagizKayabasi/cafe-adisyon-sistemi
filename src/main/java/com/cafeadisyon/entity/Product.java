@@ -3,7 +3,7 @@ package com.cafeadisyon.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Product")  // Bu tablonun adını açıkça belirtelim
+@Table(name = "product")  // Bu tablonun adını açıkça belirtelim
 public class Product {
 
     @Id
